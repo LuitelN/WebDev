@@ -1,0 +1,58 @@
+*{
+    text-align: right;
+}
+body
+{
+    background-image: url(Background.jpg);
+    background-size: cover;
+}
+h2 + p:hover
+{
+    color: #AA4139;
+    text-align: center;
+    border: 10px dashed purple;
+    cursor: pointer;
+}
+
+p{
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-family: "Times New Roman", Georgia;
+}
+p
+{
+    color: black;
+}
+li
+{
+    color: white;
+    list-style: none;
+    display: inline-block;
+}
+.webtext :last-child
+{
+    border: 5px dashed black;
+}
+
+.active 
+{
+    color: black;
+}
+#div1
+{
+    background: rgba(0, 0, 225, 0.2);
+}
+#div2
+{
+    background: rgba(225, 0, 0, 0.2);
+}
+img
+{
+    float: left;
+}
+footer
+{
+    clear: both;
+    text-align: center;
+}
